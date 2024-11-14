@@ -1,4 +1,3 @@
-// src/Product.js
 import React from 'react';
 import { useCart } from './CartProvider';
 
