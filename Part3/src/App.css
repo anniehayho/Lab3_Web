@@ -1,0 +1,63 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product-list,
+
+.cart {
+  padding: 20px;
+  width: 400px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.product {
+  padding: 10px 0;
+}
+
+.product p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.product button {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-item {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item li {
+  font-size: 1em;
+  margin: 0;
+}
+
+.cart-item button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}

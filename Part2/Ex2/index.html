@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Information</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      padding: 20px;
+    }
+    #user-list {
+      margin-top: 20px;
+    }
+    .user {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>User Information</h1>
+  <input type="text" id="search" placeholder="Search by name..." oninput="filterUsers()" />
+
+  <div id="user-list">
+    <!-- User information will be inserted here by JavaScript -->
+  </div>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
